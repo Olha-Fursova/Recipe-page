@@ -1,8 +1,10 @@
 body {
-  font-family: var(--font);
+  font-family: var(--basic-font);
   width: 100vw;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: var(--stone-100);
 }
