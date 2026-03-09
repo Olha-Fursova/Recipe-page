@@ -7,7 +7,11 @@
 
   /* Images */
 
-  .main-image {
-    background-image: url("../images/omlette-desktop 2x.jpg");
+  .image-tablet {
+    display: none;
+  }
+
+  .image-desktop {
+    display: block;
   }
 }

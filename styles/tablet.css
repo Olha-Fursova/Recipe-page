@@ -10,15 +10,20 @@
   }
 
   .content-main {
+    padding: 0;
     gap: 32px;
   }
 
   /* Images */
 
-  .main-image {
+  .image-mobile {
+    display: none;
+  }
+
+  .image-tablet {
+    display: block;
     border-radius: 16px;
     height: 300px;
-    background-image: url("../images/omlette-tablet 2x.jpg");
   }
 
   /* Text */ 
