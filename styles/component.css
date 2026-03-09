@@ -1,0 +1,159 @@
+/* Containers */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 40px 32px;
+  gap: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  gap: 24px;
+}
+
+.time-section {
+  padding: 24px;
+  gap: 16px;
+
+  background-color: var(--rose-50);
+  border-radius: 12px;
+}
+
+.time-list,
+.ingridients-list,
+.steps-list {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+
+  list-style-position: outside;
+}
+
+.time-list-item,
+.ingr-list-item {
+  padding-left: 16px;
+}
+
+.time-list-item::marker,
+.ingr-list-item::marker {
+  color: var(--rose-800);
+}
+
+.steps-list-item {
+  padding-left: 16px;
+}
+
+.steps-list-item::marker {
+  color: var(--brown);
+  font-weight: bold;
+}
+
+/* Table */
+
+.table {
+  width: 100%;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-row {
+  width: 100%;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.table-part-name,
+.table-value {
+  width: 100%;
+  text-align: start;
+}
+
+.table-part-name {
+  font-weight: 400;
+}
+
+.table-value {
+  font-weight: bold;
+  color: var(--brown);
+}
+
+/* Text */
+
+.recipe-name {
+  font-family: var(--figure-font);
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0;
+  font-weight: 400;
+
+  color: var(--stone-900);
+}
+
+.basic-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 400;
+
+  color: var(--stone-600);
+}
+
+.time-heading {
+  color: var(--rose-800);
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.highlight-text {
+  font-weight: bold;
+}
+
+.section-heading {
+  font-family: var(--figure-font);
+
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0;
+  font-weight: 400;
+
+  color: var(--brown);
+}
+
+/* Images */
+
+.main-image {
+  width: 100%;
+  height: 171px;
+  background-image: url("../images/omlette-mobile 1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: var(--stone-150);
+}
