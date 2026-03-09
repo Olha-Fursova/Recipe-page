@@ -1,0 +1,13 @@
+@media screen and (min-width: 1440px) {
+  /* Containers */
+
+  .main {
+    width: 736px;
+  }
+
+  /* Images */
+
+  .main-image {
+    background-image: url("../images/omlette-desktop 2x.jpg");
+  }
+}
